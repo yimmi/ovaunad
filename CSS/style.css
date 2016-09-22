@@ -1,10 +1,12 @@
 
 #contenidos{
 
-	width: 650px;
+	width: 1000px;
 	height: auto;
 	margin: auto;
 	position: relative;
+	
+	margin-top: 55px;
 	
 }
 /*etiquetas*/
@@ -18,19 +20,23 @@ h1{
 
 /*font-family: "Shadows Into Light", verdana;*/
 color: white;
-margin-left: 10px;
+/*margin-left: 5px;*/
 font-size: 30px; 
 text-align: center;
-margin-top: 230px;
+margin-top: 170px;
+background: #0033ff;
+
 }
 
 h2{
 /*font-family: "Indie flower", verdana;*/
-color: white;
-margin-left: 50px;
+color: black;
+margin-center: 50px;
 font-size: 25px; 
-text-align: center;
+text-align: left;
 margin-top: 50px;
+
+border-radius: 10px;
 }
 
 h3{
@@ -42,88 +48,85 @@ text-align: center;
 }
 
 header{
-	font-color: white;
-	width: 650px;
-	height: 50px;
+	font-color: SteelBlue;
+	width: 1000px;
+	height: 120px;
+	margin-top: 15px;
+	
 	/*background: rgba(255, 255, 255, 3.5);*/
 	/*border-radius: 10px;*/
-	
-	margin-top: 80px;
-
 }
 
 nav{
-width: 700px;
-height: 400px;
+width: 1000px;
+height: 50px;
 background: gray;
-border-radius: 5px;
-margin-top: 100px;
+border-radius: 10px;
 
 }
 
 ul{
-margin-top: 100px;
-padding-top: 10px;
+margin: auto;
+padding-top: 4px;
 }
 
 li{
 float: left;
 list-style-type: none;
 padding: 10px;
-background: orange;
-margin: 3px;
+background: SteelBlue;
+margin: 2px;
+box-shadow: 0 0 5px red inset;
 border-radius: 10px;
-box-shadow: 0 0 10px black inset;
-}
-
-li:hover{
-	background: black;
-	box-shadow: 0 0 800px maroon inset;
 
 }
 
 section{
-	width: 600px;
-	height: 200px;
-		font-color: white;
-	float: center;
-	margin-top: 20px;
+	width: 100px;
+	height: 400px;
+	background gray;
+	float: left;
 	border-radius: 10px;
-	margin-top: 100px;
-
+	margin-top: 1px;
 	
 }
-
 aside{
-	width: 280;
-	background: white;
-	height: 600px;
-	float: left;
-	margin-top: 20px;
+	width: 450px;
+	height: 200px;
+	background: gray;
 	border-radius: 10px;
+	margin:20;
+	margin-left: 50px;
 }
 
 footer{
-	width: 700px;
-	height: 25px;
-	background: maroon;
-	float: center;
-	margin-top: 140px;
+	width: 1000px;
+	height: 30px;
+	background: black;
+	float: left;
+	margin-top: 100px;
 	border-radius: 10px;
-	margin-bottom: 105;
+
+}
+p{
+	width: 1000px;
+	height: 100px;
+	font-size: 17px;
+	font: black;
+	line-height:24px;
+	padding: 5px;
+	text-align: justify;
+	background: GhostWhite;
 }
 
-
 /*clase*/
-.ancho_menu_home{width: 900px;}
-.ancho_menu_paginas{width: 970px;}
+.ancho_menu_home{width: 1000px;}
+.ancho_menu_paginas{width: 70px;}
 
-.munu:link{color: white; text-decoration: none;}
-.munu:visited{color: white; text-decoration: none;}
-.munu:hover{ color: white; text-decoration: none; text-shadow: 1 5 30px white; }
-.munu:active{color: white; text-decoration: none;}
-
-/*seudo clases*/
+.menu:link{color: black; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{ color: white; text-decoration: none; text-shadow: 0 0 5px white; }
+.menu:active{color: white; text-decoration: none;}
 
 
 
