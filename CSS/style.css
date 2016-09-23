@@ -31,11 +31,10 @@ background: #0033ff;
 h2{
 /*font-family: "Indie flower", verdana;*/
 color: black;
-margin-center: 50px;
+
 font-size: 25px; 
 text-align: left;
 margin-top: 50px;
-
 border-radius: 10px;
 }
 
@@ -53,21 +52,14 @@ header{
 	height: 120px;
 	margin-top: 15px;
 	
-	/*background: rgba(255, 255, 255, 3.5);*/
-	/*border-radius: 10px;*/
-}
-
-nav{
-width: 1000px;
-height: 50px;
-background: gray;
-border-radius: 10px;
-
+	background: rgba(255, 255, 255, 3.5);
+	border-radius: 10px;
 }
 
 ul{
-margin: auto;
+/*margin: auto;*/
 padding-top: 4px;
+margin-top: 5px;
 }
 
 li{
@@ -76,47 +68,41 @@ list-style-type: none;
 padding: 10px;
 background: SteelBlue;
 margin: 2px;
-box-shadow: 0 0 5px red inset;
-border-radius: 10px;
+box-shadow: 0 0 8px red inset;
+border-radius: 7px;
 
 }
 
 section{
-	width: 100px;
+	width: 1000px;
 	height: 400px;
-	background gray;
+	background: gray;
 	float: left;
 	border-radius: 10px;
-	margin-top: 1px;
+	
 	
 }
-aside{
-	width: 450px;
-	height: 200px;
-	background: gray;
-	border-radius: 10px;
-	margin:20;
-	margin-left: 50px;
-}
+
 
 footer{
 	width: 1000px;
 	height: 30px;
 	background: black;
 	float: left;
-	margin-top: 100px;
+	margin-top: 250px;
 	border-radius: 10px;
 
 }
 p{
 	width: 1000px;
-	height: 100px;
+	height: autopx;
 	font-size: 17px;
 	font: black;
 	line-height:24px;
-	padding: 5px;
+	padding: 15px;
 	text-align: justify;
 	background: GhostWhite;
+	margin-top: 450px;
 }
 
 /*clase*/
